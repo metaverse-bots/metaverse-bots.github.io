@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+      align-items: center;
+    justify-content: space-evenly;
+    background-color: #000;
+
+  }
+  .virtualcard {
+    margin:0 auto;
+    width: 100%;
+    height: 100%;
+    font-size: 1.75rem;
+    color: #fff;
+    /*background-color: #e84393;*/
+    display: flex;
+    flex-direction: column;
+      align-items: center;
+    justify-content: center;
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+  }
+  .virtualcard h1, .virtualcard h2 {
+    transform: translateZ(50px);
+  }
+
+  .viryualbg {
+
+    width:100%;
+    height: 100%;
+  }
+
+  .virtualtext {
+    position: absolute;
+    /*background-color: black;*/
+    color: white;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 75%;
+    border-style: solid 5px;
+    
+
+    text-align: center;
+  }

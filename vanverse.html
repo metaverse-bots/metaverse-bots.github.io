@@ -1,0 +1,109 @@
+<<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Vanverse!</title>
+
+<link rel="stylesheet" type="text/css"href="css/virtualstyle.css">
+
+
+    <style>
+        html, body {
+            width: 100%;
+            height: 100%;
+            background: black;
+            -webkit-font-smoothing: antialiased;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        h1 {
+            height: 100px;
+        }
+
+        h1 span {
+            position: relative;
+            top: 5px;
+            display: inline-block;
+            animation: bounce .3s ease infinite alternate;
+            font-family: cursive;
+            font-size: 30px;
+            color: #fff;
+            text-shadow: 0 1px 0 black,
+                0 2px 0 black,
+                0 3px 0 black,
+                0 4px 0 black,
+                0 5px 0 black,
+                0 6px 0 transparent,
+                0 7px 0 transparent,
+                0 8px 0 transparent,
+                0 9px 0 transparent,
+                0 10px 10px rgba(0, 0, 0, 0.4);
+        }
+
+        h1 span:nth-child(2) {
+            animation-delay: .1s;
+        }
+
+        h1 span:nth-child(3) {
+            animation-delay: .2s;
+        }
+
+        h1 span:nth-child(4) {
+            animation-delay: .3s;
+        }
+
+        h1 span:nth-child(5) {
+            animation-delay: .4s;
+        }
+
+        h1 span:nth-child(6) {
+            animation-delay: .5s;
+        }
+
+        h1 span:nth-child(7) {
+            animation-delay: .6s;
+        }
+
+        h1 span:nth-child(8) {
+            animation-delay: .7s;
+        }
+
+        @keyframes bounce {
+            100% {
+                top: -20px;
+                text-shadow: 0 1px 0 #555,
+                    0 2px 0 #555,
+                    0 3px 0 #555,
+                    0 4px 0 #555,
+                    0 5px 0 #555,
+                    0 6px 0 #555,
+                    0 7px 0 #555,
+                    0 8px 0 #555,
+                    0 9px 0 #555,
+                    0 50px 25px rgba(0, 0, 0, 2);
+            }
+        }
+    </style>
+
+
+</head>
+<body align="right">
+		<div class="virtualcard">
+			<img src="img/van.png" class="viryualbg">
+
+    <h1 class="virtualtext">
+        <span>Safvan</span>
+        <span>is</span>
+        <span>out</span>
+        <span>for</span>
+        <span>lunch!</span>
+    </h1>
+
+		</div>
+<script type="text/javascript" src="js/virtualcode.js"></script>
+</body>
+</html>
